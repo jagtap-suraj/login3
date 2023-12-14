@@ -1,6 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:firebase_setup/chat_screen.dart';
 import 'package:firebase_setup/constants.dart';
+import 'package:firebase_setup/home_screen.dart';
 import 'package:flutter/material.dart';
 
 class RegistrationScreen extends StatefulWidget {
@@ -72,7 +72,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => const ChatScreen()));
+                              builder: (context) => HomeScreen()));
                       print('Successfully Created');
                     });
                   } catch (e) {

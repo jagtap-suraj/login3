@@ -1,6 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:firebase_setup/chat_screen.dart';
 import 'package:firebase_setup/constants.dart';
+import 'package:firebase_setup/home_screen.dart';
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -70,7 +70,7 @@ class LoginScreenState extends State<LoginScreen> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => const ChatScreen()));
+                              builder: (context) =>  HomeScreen()));
                     });
                     print('Successfully Login');
                   } catch (e) {

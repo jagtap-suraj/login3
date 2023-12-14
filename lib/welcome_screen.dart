@@ -25,12 +25,12 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
             const Center(
               child: DefaultTextStyle(
                 style: TextStyle(
-                  fontSize: 40.0,
+                  fontSize: 28.0,
                   fontWeight: FontWeight.w900,
                   color: Colors.black54,
                 ),
                 child: Text(
-                  'Firebase Tutorial',
+                  'Email Authentication App',
                 ),
               ),
             ),
